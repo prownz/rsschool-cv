@@ -10,3 +10,19 @@
 
 ## About me
 I work as an administrator on the set, but I understand that this job does not suit me, so I want to become a front-end developer, my perseverance and attraction to new knowledge will help me.
+
+---
+
+## Skills
+* HTML
+* CSS
+
+---
+
+## Code example
+
+```
+function multiply(a, b){
+return a * b;
+}
+```
