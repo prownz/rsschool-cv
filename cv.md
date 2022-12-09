@@ -26,3 +26,18 @@ function multiply(a, b){
 return a * b;
 }
 ```
+
+---
+
+## Experience
+Not yet.
+
+---
+
+## Education
+Auto Mechanic.
+
+---
+
+## Language
+English level - A1
