@@ -11,6 +11,7 @@ body {
 h1 {
     color: gainsboro;
     font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .name{
     color: gainsboro;
@@ -43,10 +44,7 @@ h1 {
 h2 {
     color: brown;
     font-size: 33px;
-}
-.html, .css, .git {
-    color: gainsboro;
-    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .skills {
     font-size: 28px;
@@ -71,6 +69,7 @@ p {
     color: gainsboro;
     text-align: center;
     font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .exp {
     font-size: 28px;
@@ -105,6 +104,7 @@ a {
     height: 50;
     max-width: 1440px;
     margin: auto;
+    margin-top: 150px;
 }
 .gitlink {
     background-color: brown;
@@ -128,7 +128,4 @@ nav ul {
 nav li {
     padding: 10px;
     margin: 20px;
-}
-.links {
-    margin-top: 150px;
 }
