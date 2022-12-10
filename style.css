@@ -23,10 +23,10 @@ h1 {
 }
 .aboutme {
     color: gainsboro;
-    font-size: 36px;
+    font-size: 28px;
     position: absolute;
     left: 900px;
-    top: 570px;
+    top: 593px;
 margin-right: 500px;
 }
 h2,h1 {
@@ -37,17 +37,38 @@ h2,h1 {
     font-size: 25px;
 }
 .skills {
-    font-size: 36px;
+    font-size: 28px;
     position: absolute;
     left: 900px;
-    top: 1000px;
+    top: 880px;
 }
 .code {
-    font-size: 36px;
+    font-size: 28px;
     position: absolute;
     left: 900px;
-    top: 1400px;
+    top: 1230px;
 }
 .codeexample {
     color: gainsboro;
+}
+p {
+    color: gainsboro;
+}
+.exp {
+    font-size: 28px;
+    position: absolute;
+    left: 900px;
+    top: 1500px;
+}
+.educ {
+    font-size: 28px;
+    position: absolute;
+    left: 900px;
+    top: 1670px;
+}
+.lang {
+    font-size: 28px;
+    position: absolute;
+    left: 900px;
+    top: 1850px;
 }
