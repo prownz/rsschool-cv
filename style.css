@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth; 
+  }
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -9,28 +12,37 @@ h1 {
     color: gainsboro;
     font-size: 36px;
 }
-.avatar {
-    position: absolute;
-    left: 400px;
-    top: 200px;
+.name{
+    color: gainsboro;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .contacts {
     color: gainsboro;
-    font-size: 36px;
-    position: absolute;
-    left: 900px;
-    top: 200px;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .aboutme {
     color: gainsboro;
     font-size: 28px;
-    position: absolute;
-    left: 900px;
-    top: 593px;
-margin-right: 500px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-h2,h1 {
+h2 {
     color: brown;
+    font-size: 33px;
 }
 .html, .css, .git {
     color: gainsboro;
@@ -38,39 +50,51 @@ h2,h1 {
 }
 .skills {
     font-size: 28px;
-    position: absolute;
-    left: 900px;
-    top: 880px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .code {
     font-size: 28px;
-    position: absolute;
-    left: 900px;
-    top: 1230px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .codeexample {
     color: gainsboro;
 }
 p {
     color: gainsboro;
+    text-align: center;
+    font-size: 25px;
 }
 .exp {
     font-size: 28px;
-    position: absolute;
-    left: 900px;
-    top: 1500px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .educ {
     font-size: 28px;
-    position: absolute;
-    left: 900px;
-    top: 1670px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .lang {
     font-size: 28px;
-    position: absolute;
-    left: 900px;
-    top: 1850px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 a {
     color: brown
@@ -79,24 +103,21 @@ a {
     background-color: brown;
     width: 120px;
     height: 50;
-    position: absolute;
-    top: 2100px;
-    left: 700px;
+    max-width: 1440px;
+    margin: auto;
 }
 .gitlink {
     background-color: brown;
     width: 120px;
     height: 50px;
-    position: absolute;
-    top: 2099px;
-    left: 1000px;
+    max-width: 1440px;
+    margin: auto;
 }
 .since {
     font-size: 20px;
     color: brown;
-    position: absolute;
-    top: 2100px;
-    left: 827px;
+    max-width: 1440px;
+    margin: auto;
 }
 nav ul {
     display: flex;
@@ -107,4 +128,7 @@ nav ul {
 nav li {
     padding: 10px;
     margin: 20px;
+}
+.links {
+    margin-top: 150px;
 }
