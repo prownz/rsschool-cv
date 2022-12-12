@@ -1,3 +1,134 @@
-h1{
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    background-color: rgb(0, 0, 0);
+}
+.img {
+    height: 400px;
+    width: 300px;
+}
+h1 {
+    color: gainsboro;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    color: gainsboro;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts {
+    color: gainsboro;
+    max-width: 1440px;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutme {
+    color: gainsboro;
+    font-size: 28px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2 {
     color: brown;
+    font-size: 33px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills {
+    font-size: 28px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.code {
+    font-size: 28px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.codeexample {
+    color: gainsboro;
+}
+p {
+    color: gainsboro;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.exp {
+    font-size: 28px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.educ {
+    font-size: 28px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lang {
+    font-size: 28px;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a {
+    color: brown
+}
+.rslink {
+    background-color: brown;
+    width: 120px;
+    height: 50;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 150px;
+}
+.gitlink {
+    background-color: brown;
+    width: 120px;
+    height: 50px;
+    max-width: 1440px;
+    margin: auto;
+}
+.since {
+    font-size: 20px;
+    color: brown;
+    max-width: 1440px;
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: brown;
+}
+nav li {
+    padding: 10px;
+    margin: 20px;
+}
+progress {
+    accent-color: brown;
 }
