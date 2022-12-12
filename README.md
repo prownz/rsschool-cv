@@ -1,1 +1,1 @@
-https://prownz.github.io/rsschool-cv/
+* https://prownz.github.io/rsschool-cv/
